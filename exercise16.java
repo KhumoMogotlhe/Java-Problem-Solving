@@ -31,14 +31,14 @@ public class exercise16 {
             for (b = 0; b <= k - a; b++) {
 
                 // Print white space for left spacing
-                System.out.print(" ");
+                System.out.println(" ");
             }
 
             // Inner loop 2
             for (b = 0; b <= a; b++) {
 
                 // nCr formula
-                System.out.print(
+                System.out.println(
                         " "
                                 + ex.factorial(a)
                                 / (ex.factorial(a - b)
